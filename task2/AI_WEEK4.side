@@ -1,0 +1,390 @@
+{
+  "id": "12c1de47-2bce-4324-9f0d-19ea3f6f0c66",
+  "version": "2.0",
+  "name": "AI_WEEK4",
+  "url": "https://aji-easy-frontend.vercel.app",
+  "tests": [{
+    "id": "ea01cc52-6745-42f6-9f39-c72fda3f70bd",
+    "name": "ajieasy_test",
+    "commands": [{
+      "id": "ea9680d2-5e74-400a-bdfd-58cb574eb4cb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "277f277f-8194-4f95-8b8b-171684f27832",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "deaff1af-7b83-49dc-87b8-a1b2482978bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log In",
+      "targets": [
+        ["linkText=Log In", "linkText"],
+        ["css=.btn-login", "css:finder"],
+        ["xpath=//div[@id='navMenu']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'login.html')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0537f162-5e6d-4932-bd3e-fd0167c11d5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8937c86d-87d9-433b-95bd-228b7bccc211",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "machine@2006"
+    }, {
+      "id": "f190072c-bdb2-4e92-b4f8-b53b4a07e840",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitBtn",
+      "targets": [
+        ["id=submitBtn", "id"],
+        ["css=#submitBtn", "css:finder"],
+        ["xpath=//button[@id='submitBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d3c66af-420d-4fec-ac1f-20c596f182c6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5ba7f78-5b97-48c1-af56-4588ffe3038e",
+      "comment": "",
+      "command": "click",
+      "target": "id=generateBtn",
+      "targets": [
+        ["id=generateBtn", "id"],
+        ["css=#generateBtn", "css:finder"],
+        ["xpath=//button[@id='generateBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='topicForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Generate Questions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d78a02a-b9b2-46bc-8ba9-482d0d1b9476",
+      "comment": "",
+      "command": "click",
+      "target": "css=.feature-tab:nth-child(2)",
+      "targets": [
+        ["css=.feature-tab:nth-child(2)", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Quiz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3741f51-815c-467f-b4c7-ed8efdbcd6f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizTopic",
+      "targets": [
+        ["id=quizTopic", "id"],
+        ["name=quizTopic", "name"],
+        ["css=#quizTopic", "css:finder"],
+        ["xpath=//input[@id='quizTopic']", "xpath:attributes"],
+        ["xpath=//form[@id='quizForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1fe04da-38ee-4489-97fb-6da3bab777fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=quizTopic",
+      "targets": [
+        ["id=quizTopic", "id"],
+        ["name=quizTopic", "name"],
+        ["css=#quizTopic", "css:finder"],
+        ["xpath=//input[@id='quizTopic']", "xpath:attributes"],
+        ["xpath=//form[@id='quizForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/form/div/input", "xpath:position"]
+      ],
+      "value": "employment"
+    }, {
+      "id": "47edd51b-c121-4f51-b0a4-908c935c83f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizDifficulty",
+      "targets": [
+        ["id=quizDifficulty", "id"],
+        ["name=quizDifficulty", "name"],
+        ["css=#quizDifficulty", "css:finder"],
+        ["xpath=//select[@id='quizDifficulty']", "xpath:attributes"],
+        ["xpath=//form[@id='quizForm']/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb1f7914-647e-446f-86d6-9daea5bc1740",
+      "comment": "",
+      "command": "select",
+      "target": "id=quizDifficulty",
+      "targets": [],
+      "value": "label=Easy"
+    }, {
+      "id": "85d6b025-4b6a-4c3f-883f-7df88ab2e738",
+      "comment": "",
+      "command": "click",
+      "target": "id=questionCount",
+      "targets": [
+        ["id=questionCount", "id"],
+        ["name=questionCount", "name"],
+        ["css=#questionCount", "css:finder"],
+        ["xpath=//select[@id='questionCount']", "xpath:attributes"],
+        ["xpath=//form[@id='quizForm']/div[2]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00c40c55-505f-413a-a0cb-5a7a3b49d072",
+      "comment": "",
+      "command": "select",
+      "target": "id=questionCount",
+      "targets": [],
+      "value": "label=5 Questions"
+    }, {
+      "id": "f7bb13d9-15f3-405d-a409-fc2040b45cfa",
+      "comment": "",
+      "command": "click",
+      "target": "id=quizFocus",
+      "targets": [
+        ["id=quizFocus", "id"],
+        ["name=quizFocus", "name"],
+        ["css=#quizFocus", "css:finder"],
+        ["xpath=//textarea[@id='quizFocus']", "xpath:attributes"],
+        ["xpath=//form[@id='quizForm']/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20fbf23f-dcbc-4f1a-b52a-ba2f8981c041",
+      "comment": "",
+      "command": "type",
+      "target": "id=quizFocus",
+      "targets": [
+        ["id=quizFocus", "id"],
+        ["name=quizFocus", "name"],
+        ["css=#quizFocus", "css:finder"],
+        ["xpath=//textarea[@id='quizFocus']", "xpath:attributes"],
+        ["xpath=//form[@id='quizForm']/div[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "challenges in employment"
+    }, {
+      "id": "2dd3fcd1-6dd3-4a80-b00b-a47899774a63",
+      "comment": "",
+      "command": "click",
+      "target": "id=generateQuizBtn",
+      "targets": [
+        ["id=generateQuizBtn", "id"],
+        ["css=#generateQuizBtn", "css:finder"],
+        ["xpath=//button[@id='generateQuizBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='quizForm']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start Quiz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81804041-48c2-4922-9ccb-c5a852abfaf6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quiz-option:nth-child(1)",
+      "targets": [
+        ["css=.quiz-option:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='quizInterface']/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66b9f13e-f223-4ba9-8fef-32551e61825f",
+      "comment": "",
+      "command": "click",
+      "target": "id=nextQuestionBtn",
+      "targets": [
+        ["id=nextQuestionBtn", "id"],
+        ["css=#nextQuestionBtn", "css:finder"],
+        ["xpath=//button[@id='nextQuestionBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='quizInterface']/div[2]/div[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next Question')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "381d5418-1bfd-4169-baef-fc876c3f26da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quiz-option:nth-child(2)",
+      "targets": [
+        ["css=.quiz-option:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='quizInterface']/div[2]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1374e721-8859-41a9-854b-badfc2d341db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quiz-navigation",
+      "targets": [
+        ["css=.quiz-navigation", "css:finder"],
+        ["xpath=//div[@id='quizInterface']/div[2]/div[4]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div[2]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "736baa40-d560-43d6-838e-54739d20e2f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quiz-question",
+      "targets": [
+        ["css=.quiz-question", "css:finder"],
+        ["xpath=//div[@id='quizInterface']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24b6681f-a5cb-4fa4-ad8c-ac6615c41a96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-arrow-right",
+      "targets": [
+        ["css=.fa-arrow-right", "css:finder"],
+        ["xpath=//button[@id='nextQuestionBtn']/i", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c9a5ec3-3e8f-4983-9ba7-4ef6596717c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quiz-option:nth-child(2)",
+      "targets": [
+        ["css=.quiz-option:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='quizInterface']/div[2]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b454b75-517c-4aae-bf5a-6b81b560259a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.app-container",
+      "targets": [
+        ["css=.app-container", "css:finder"],
+        ["xpath=//main/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee7379c2-c9f1-4982-a364-c6f21e075e28",
+      "comment": "",
+      "command": "click",
+      "target": "id=nextQuestionBtn",
+      "targets": [
+        ["id=nextQuestionBtn", "id"],
+        ["css=#nextQuestionBtn", "css:finder"],
+        ["xpath=//button[@id='nextQuestionBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='quizInterface']/div[2]/div[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next Question')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51c64bf1-72c6-4511-be88-83829efbccd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quiz-option:nth-child(2) > .option-text",
+      "targets": [
+        ["css=.quiz-option:nth-child(2) > .option-text", "css:finder"],
+        ["xpath=//div[@id='quizInterface']/div[2]/div[2]/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Report the incident to HR or a supervisor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2ca2d8b-23b3-46d3-a83f-58c4cf48b1c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=nextQuestionBtn",
+      "targets": [
+        ["id=nextQuestionBtn", "id"],
+        ["css=#nextQuestionBtn", "css:finder"],
+        ["xpath=//button[@id='nextQuestionBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='quizInterface']/div[2]/div[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next Question')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d37aeb6e-1683-4fcc-ad00-206354f9351d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quiz-option:nth-child(4) > .option-text",
+      "targets": [
+        ["css=.quiz-option:nth-child(4) > .option-text", "css:finder"],
+        ["xpath=//div[@id='quizInterface']/div[2]/div[2]/div[4]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Recognition and reward systems')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20561fee-5621-441c-9569-f53203fc1c43",
+      "comment": "",
+      "command": "click",
+      "target": "id=nextQuestionBtn",
+      "targets": [
+        ["id=nextQuestionBtn", "id"],
+        ["css=#nextQuestionBtn", "css:finder"],
+        ["xpath=//button[@id='nextQuestionBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='quizInterface']/div[2]/div[4]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Finish Quiz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "88f836cc-294b-4dc2-a4a4-0d808b1e6f59",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://aji-easy-frontend.vercel.app/"],
+  "plugins": []
+}
