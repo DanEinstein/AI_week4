@@ -1,0 +1,20 @@
+2025-10-29T02:07:52.979Z INFO SharedStateManager initialized
+2025-10-29T02:07:52.981Z INFO Is remote: false
+2025-10-29T02:07:52.982Z INFO Starting Local. Installation path: undefined
+2025-10-29T02:07:52.984Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-29T02:07:52.987Z INFO Installation path exists: c:\Users\User\Desktop\week4_AI_assignment\task3
+2025-10-29T02:07:52.992Z INFO Initializing database with URL: file:C:\Users\User\AppData\Local\Temp\pythagora-temp\pythagora.db
+2025-10-29T02:07:53.002Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-10-29T02:07:53.003Z INFO Database initialized successfully
+2025-10-29T02:07:53.007Z INFO [Migration] Checking for database migration...
+2025-10-29T02:07:56.711Z INFO [Migration] No migration needed
+2025-10-30T01:51:00.990Z INFO SharedStateManager initialized
+2025-10-30T01:51:00.994Z INFO Is remote: false
+2025-10-30T01:51:00.995Z INFO Starting Local. Installation path: undefined
+2025-10-30T01:51:00.996Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-30T01:51:00.999Z INFO Installation path exists: c:\Users\User\Desktop\week4_AI_assignment\task3
+2025-10-30T01:51:01.001Z INFO Initializing database with URL: file:C:\Users\User\AppData\Local\Temp\pythagora-temp\pythagora.db
+2025-10-30T01:51:01.013Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-10-30T01:51:01.014Z INFO Database initialized successfully
+2025-10-30T01:51:01.016Z INFO [Migration] Checking for database migration...
+2025-10-30T01:51:13.885Z INFO [Migration] No migration needed
