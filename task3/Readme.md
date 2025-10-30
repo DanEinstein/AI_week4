@@ -26,11 +26,11 @@ The model is a classic U-Net, which follows an "encoder-decoder" architecture:
 
 **Example of Training Data (Image and Mask):**
 
-![Training Data](images/images/Breast-Cancer-Segmentation-Training-screenshot1.png)
+![Training Data](images/Breast-Cancer-Segmentation-Training-screenshot1.png)
 
 **Training Process (Loss Curve):**
 
-![Loss Curve](images/images/Breast-Cancer-Segmentation-Training-screenshot2.png)
+![Loss Curve](images/Breast-Cancer-Segmentation-Training-screenshot2.png)
 
 ## How to Use
 
